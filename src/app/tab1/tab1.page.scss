@@ -1,0 +1,48 @@
+/* camera.page.scss */
+
+ion-header {
+    --ion-background-color: #3880ff; /* Set header background color */
+    --ion-color-light: #ffffff; /* Set header text color */
+  }
+  
+  ion-toolbar {
+    --background: transparent; /* Make toolbar background transparent */
+  }
+  
+  ion-title {
+    font-size: 1.5rem; /* Set title font size */
+    font-weight: bold; /* Make title bold */
+  }
+  
+  ion-content {
+    --ion-background-color: #f4f4f4; /* Set content background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    width: 200px; /* Set button width */
+    height: 50px;
+    margin: 10px; /* Add margin around buttons */
+    border-radius: 8px; /* Add border radius to buttons */
+    background-color: #3880ff; /* Set button background color */
+    color: #ffffff; /* Set button text color */
+    font-size: 1rem; /* Set button text font size */
+    font-weight: bold; /* Make button text bold */
+    text-transform: uppercase; /* Convert button text to uppercase */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to buttons */
+    transition: all 0.3s ease; /* Add smooth transition effect */
+  }
+  
+  button:hover {
+    background-color: #3171e0; /* Change background color on hover */
+  }
+  
+  ion-img {
+    max-width: 90%; /* Set maximum width for the image */
+    border-radius: 8px; /* Add border radius to the image */
+    margin-top: 20px; /* Add top margin to the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to the image */
+  }
+  

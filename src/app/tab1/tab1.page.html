@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Camera
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <br><br>
+  <button expand="full" (click)="takePhoto()" style="margin-left: 10px;">Open Gallery</button><br>
+  <button expand="full" (click)="openGallery()" style="margin-left:10px;">Take Phtoto</button>
+  <br><br>
+  <h2 style="margin-left: 10px;">Photos: </h2>
+  <ion-item *ngFor="let photos of photoTaken">
+    <ion-img *ngIf="photos" [src]="photos"></ion-img>
+  </ion-item>
+</ion-content>
